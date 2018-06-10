@@ -4,10 +4,13 @@
 
 
 	<test name="Login">
+	
 		<classes>
 			<class name="com.testing.Regression.PageLaunch" />
 			
 		</classes>
+		
+			
 	</test>
 	
 </suite> <!-- Suite -->

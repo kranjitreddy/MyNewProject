@@ -1,25 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="StartWithTesting" duration-ms="11170" started-at="2018-06-10T00:20:36Z" finished-at="2018-06-10T00:20:47Z">
+  <suite name="Default suite" duration-ms="10059" started-at="2018-06-10T00:37:42Z" finished-at="2018-06-10T00:37:52Z">
     <groups>
     </groups>
-    <test name="Login" duration-ms="11170" started-at="2018-06-10T00:20:36Z" finished-at="2018-06-10T00:20:47Z">
+    <test name="Default test" duration-ms="10059" started-at="2018-06-10T00:37:42Z" finished-at="2018-06-10T00:37:52Z">
       <class name="com.testing.Regression.PageLaunch">
-        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.testing.Regression.PageLaunch@6f7fd0e6]" name="initBrowser" is-config="true" duration-ms="4069" started-at="2018-06-10T00:20:36Z" finished-at="2018-06-10T00:20:40Z">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="initBrowser" is-config="true" duration-ms="4191" started-at="2018-06-10T00:37:42Z" finished-at="2018-06-10T00:37:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.testing.Regression.PageLaunch@6f7fd0e6]" name="launchBrowser" duration-ms="4735" started-at="2018-06-10T00:20:40Z" finished-at="2018-06-10T00:20:44Z">
+        <test-method status="PASS" signature="getCurrentUrl()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="getCurrentUrl" duration-ms="51" started-at="2018-06-10T00:37:46Z" finished-at="2018-06-10T00:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentUrl -->
+        <test-method status="PASS" signature="beforeTestBegin()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="beforeTestBegin" is-config="true" duration-ms="0" started-at="2018-06-10T00:37:46Z" finished-at="2018-06-10T00:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestBegin -->
+        <test-method status="PASS" signature="afterTestEnds()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="afterTestEnds" is-config="true" duration-ms="0" started-at="2018-06-10T00:37:46Z" finished-at="2018-06-10T00:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestEnds -->
+        <test-method status="PASS" signature="getTheWindowHandles()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="getTheWindowHandles" duration-ms="9" started-at="2018-06-10T00:37:46Z" finished-at="2018-06-10T00:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTheWindowHandles -->
+        <test-method status="PASS" signature="beforeTestBegin()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="beforeTestBegin" is-config="true" duration-ms="0" started-at="2018-06-10T00:37:46Z" finished-at="2018-06-10T00:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestBegin -->
+        <test-method status="PASS" signature="afterTestEnds()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="afterTestEnds" is-config="true" duration-ms="1" started-at="2018-06-10T00:37:46Z" finished-at="2018-06-10T00:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestEnds -->
+        <test-method status="PASS" signature="beforeTestBegin()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="beforeTestBegin" is-config="true" duration-ms="0" started-at="2018-06-10T00:37:46Z" finished-at="2018-06-10T00:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestBegin -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="launchBrowser" duration-ms="5241" started-at="2018-06-10T00:37:46Z" finished-at="2018-06-10T00:37:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testing.Regression.PageLaunch@6f7fd0e6]" name="closeBrowser" is-config="true" duration-ms="2335" started-at="2018-06-10T00:20:44Z" finished-at="2018-06-10T00:20:47Z">
+        <test-method status="PASS" signature="afterTestEnds()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="afterTestEnds" is-config="true" duration-ms="1" started-at="2018-06-10T00:37:51Z" finished-at="2018-06-10T00:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestEnds -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="verifyPageTitle" duration-ms="18" started-at="2018-06-10T00:37:51Z" finished-at="2018-06-10T00:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="beforeTestBegin()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="beforeTestBegin" is-config="true" duration-ms="0" started-at="2018-06-10T00:37:51Z" finished-at="2018-06-10T00:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestBegin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="closeBrowser" is-config="true" duration-ms="501" started-at="2018-06-10T00:37:51Z" finished-at="2018-06-10T00:37:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTestEnds()[pri:0, instance:com.testing.Regression.PageLaunch@3e6fa38a]" name="afterTestEnds" is-config="true" duration-ms="0" started-at="2018-06-10T00:37:51Z" finished-at="2018-06-10T00:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestEnds -->
       </class> <!-- com.testing.Regression.PageLaunch -->
-    </test> <!-- Login -->
-  </suite> <!-- StartWithTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
