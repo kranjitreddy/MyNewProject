@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="StartWithTesting" duration-ms="11170" started-at="2018-06-10T00:20:36Z" finished-at="2018-06-10T00:20:47Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="11170" started-at="2018-06-10T00:20:36Z" finished-at="2018-06-10T00:20:47Z">
+      <class name="com.testing.Regression.PageLaunch">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.testing.Regression.PageLaunch@6f7fd0e6]" name="initBrowser" is-config="true" duration-ms="4069" started-at="2018-06-10T00:20:36Z" finished-at="2018-06-10T00:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.testing.Regression.PageLaunch@6f7fd0e6]" name="launchBrowser" duration-ms="4735" started-at="2018-06-10T00:20:40Z" finished-at="2018-06-10T00:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testing.Regression.PageLaunch@6f7fd0e6]" name="closeBrowser" is-config="true" duration-ms="2335" started-at="2018-06-10T00:20:44Z" finished-at="2018-06-10T00:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testing.Regression.PageLaunch -->
+    </test> <!-- Login -->
+  </suite> <!-- StartWithTesting -->
+</testng-results>
