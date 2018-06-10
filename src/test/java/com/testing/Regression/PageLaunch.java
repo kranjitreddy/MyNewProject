@@ -2,7 +2,9 @@ package com.testing.Regression;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -13,10 +15,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.testing.pageobjects.HomePageObjects;
+
 public class PageLaunch {
 	
 	
 	
+
+	HomePageObjects homePage;
 	public WebDriver driver;
 	
 	@BeforeClass
@@ -61,9 +67,16 @@ public class PageLaunch {
 		System.out.println("the Current Page URL is : "+driver.getCurrentUrl());
 	}
 	
-	@BeforeMethod
-	public void beforeTestBegin()
+	@Test
+	public void SearchFunction()
 	{
+		
+	homePage.clickOnSearchTextbox();
+	homePage.enterSearchCriteria();
+	homePage.clickSearchButton();
+		
+		
+		System.out.println();
 		System.out.println("***********The Test Starts**********");
 	}
 	@AfterMethod
